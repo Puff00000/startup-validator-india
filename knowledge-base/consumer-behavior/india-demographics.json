@@ -1,0 +1,143 @@
+{
+  "india_demographics": {
+    "population": {
+      "total": "1.4 billion",
+      "urban_population": "35% (490M)",
+      "rural_population": "65% (910M)",
+      "median_age": "28 years"
+    },
+    "internet_penetration": {
+      "overall": "45% (630M users)",
+      "urban": "75%",
+      "rural": "25%",
+      "mobile_first": "90% access via mobile",
+      "4g_coverage": "70%"
+    },
+    "income_segmentation": {
+      "tier_1_cities": {
+        "cities": ["Delhi", "Mumbai", "Bangalore", "Hyderabad", "Pune"],
+        "population": "80M",
+        "household_income": "₹15L+ per annum",
+        "characteristics": "High digital adoption, trendy, early adopters",
+        "target_for": "Premium SaaS, D2C, FinTech, EdTech"
+      },
+      "tier_2_cities": {
+        "cities": ["Ahmedabad", "Surat", "Chandigarh", "Jaipur", "Lucknow"],
+        "population": "150M",
+        "household_income": "₹5L-15L per annum",
+        "characteristics": "Growing digital adoption, price-conscious, value-seekers",
+        "target_for": "Vertical SaaS, eCommerce, Quick commerce, FinTech"
+      },
+      "tier_3_cities_towns": {
+        "population": "260M",
+        "household_income": "₹2L-5L per annum",
+        "characteristics": "Limited digital adoption, cash-dependent, family-influenced buying",
+        "target_for": "Affordable solutions, agricultural tech, microfinance"
+      },
+      "rural": {
+        "population": "910M",
+        "household_income": "< ₹2L per annum",
+        "characteristics": "Very low digital adoption, seasonal income, agriculture-dependent",
+        "target_for": "AgriTech, microfinance, OTT (free models)"
+      }
+    },
+    "digital_behavior": {
+      "social_media": {
+        "whatsapp_users": "400M",
+        "facebook_users": "300M",
+        "instagram_users": "200M",
+        "youtube_users": "450M",
+        "tiktok": "Banned (2020)",
+        "emerging": "Discord, Telegram"
+      },
+      "payment_methods": {
+        "cash": "70% (outside metros)",
+        "upi": "40% of digital transactions",
+        "credit_card": "3% penetration",
+        "mobile_wallet": "15%",
+        "cod_ecommerce": "60% of orders"
+      },
+      "content_consumption": {
+        "youtube": "Primary content source",
+        "whatsapp": "News, entertainment, social",
+        "ott_platforms": "Netflix, Prime Video, Hotstar (50M+ paid subscribers)",
+        "languages": "Hindi, Telugu, Tamil, Marathi (75% prefer local language)"
+      }
+    },
+    "segment_specific_insights": {
+      "students": {
+        "population": "500M",
+        "age": "5-25 years",
+        "characteristics": "Digital native, influenced by YouTube, aspirational",
+        "opportunities": ["EdTech", "Skill platforms", "Exam prep"],
+        "constraints": "Limited purchasing power"
+      },
+      "working_professionals": {
+        "population": "120M",
+        "age": "25-45 years",
+        "household_income": "₹5L-25L+ per annum",
+        "characteristics": "Early adopters, willing to pay for convenience and quality",
+        "opportunities": ["SaaS", "D2C", "FinTech", "Health/Wellness"],
+        "behavior": "Online shopping, subscription services, premium content"
+      },
+      "homemakers": {
+        "population": "200M",
+        "characteristics": "Growing digital adoption, price-sensitive, group-buying",
+        "opportunities": ["Beauty & wellness", "Grocery delivery", "Home services"],
+        "platform": "WhatsApp groups, Facebook, Instagram"
+      },
+      "small_business_owners": {
+        "population": "50M+ (including informal)",
+        "characteristics": "Low digital literacy, cost-conscious, family businesses",
+        "opportunities": ["Vertical SaaS", "Payment solutions", "Business management"],
+        "challenge": "Digital adoption friction"
+      },
+      "farmers": {
+        "population": "100M+",
+        "characteristics": "Very low digital adoption, seasonal income, agriculture-dependent",
+        "opportunities": ["AgriTech", "Crop insurance", "Direct market access"],
+        "constraint": "Limited smartphone penetration, low connectivity"
+      }
+    }
+  },
+  "consumer_behavior_patterns": {
+    "tier_1_urban": {
+      "shopping_behavior": "Online-first, frequent, across categories",
+      "payment": "Digital (UPI, cards)",
+      "price_sensitivity": "Medium (willing to pay for quality)",
+      "brand_affinity": "High (brand conscious)",
+      "information_source": "YouTube, Instagram, peer reviews"
+    },
+    "tier_2_urban": {
+      "shopping_behavior": "Mixed online/offline, comparison shopping",
+      "payment": "UPI, COD for eCommerce",
+      "price_sensitivity": "High (value-conscious)",
+      "brand_affinity": "Medium",
+      "information_source": "WhatsApp groups, YouTube, reviews"
+    },
+    "tier_3_town": {
+      "shopping_behavior": "Mostly offline, occasional online",
+      "payment": "Mostly cash, COD for eCommerce",
+      "price_sensitivity": "Very high (budget-conscious)",
+      "brand_affinity": "Low (price-driven)",
+      "information_source": "WhatsApp, friends/family, local"
+    },
+    "rural": {
+      "shopping_behavior": "Mostly offline, occasional eCommerce",
+      "payment": "Cash, COD",
+      "price_sensitivity": "Extreme (survival spending)",
+      "brand_affinity": "Very low",
+      "information_source": "Offline word-of-mouth, local"
+    }
+  },
+  "key_insights": {
+    "mobile_first": "India is a mobile-first market; 90% of internet access via smartphones",
+    "language_matters": "75% prefer local language content; English-only products limit reach",
+    "cost_consciousness": "Price is primary decision factor for 80% of population",
+    "family_influence": "Purchase decisions are often family-influenced, especially outside metros",
+    "trust_barrier": "Cash-on-delivery is still preferred in eCommerce due to trust issues",
+    "seasonality": "Rural income is seasonal (agricultural); affects sales and retention",
+    "offline_hybrid": "Winners are hybrid solutions (online + offline integration)",
+    "youtube_dominance": "YouTube is primary information and entertainment source across tiers"
+  }
+}
