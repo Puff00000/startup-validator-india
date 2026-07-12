@@ -1,0 +1,103 @@
+{
+  "sector": "FinTech",
+  "tam": {
+    "2024": "$100B",
+    "2030_projection": "$250B",
+    "cagr": "15-20%"
+  },
+  "subsectors": [
+    {
+      "name": "Digital Payments",
+      "tam": "$40B",
+      "growth": "40% YoY",
+      "description": "UPI, wallets, payment gateways",
+      "maturity": "Mature",
+      "examples": ["Paytm", "PhonePe", "Google Pay", "Razorpay"],
+      "unit_economics": {
+        "cac": "₹50-200",
+        "ltv": "₹500-2000",
+        "payback_period": "2-4 months"
+      },
+      "red_flags": [
+        "Too much competition",
+        "Thin margins on transactions",
+        "Regulatory scrutiny"
+      ],
+      "opportunities": ["Enterprise payments", "International remittance", "B2B2C"]
+    },
+    {
+      "name": "Lending & Credit",
+      "tam": "$30B",
+      "growth": "35% YoY",
+      "description": "Personal loans, BNPL, business lending",
+      "maturity": "Growth",
+      "examples": ["Moneytap", "CRED", "Slice", "Razorpay Lending"],
+      "unit_economics": {
+        "cac": "₹500-1000",
+        "ltv": "₹5000-15000",
+        "payback_period": "6-12 months"
+      },
+      "opportunities": ["BNPL in eCommerce", "Underserved segments", "Collateral-free lending"],
+      "challenges": ["Credit risk", "Regulatory compliance", "Default rates"]
+    },
+    {
+      "name": "InsurTech",
+      "tam": "$15B",
+      "growth": "25% YoY",
+      "description": "Insurance comparison, micro-insurance, health insurance",
+      "maturity": "Early",
+      "examples": ["PolicyBazaar", "InsuranceDekho", "DIGIT"],
+      "unit_economics": {
+        "cac": "₹1000-2000",
+        "ltv": "High (recurring premiums)"
+      },
+      "opportunities": ["Micro-insurance", "Health insurance aggregation", "Underserved segments"],
+      "challenges": ["Regulatory complexity", "Low awareness", "Distribution"]
+    },
+    {
+      "name": "Investment & Wealth",
+      "tam": "$20B",
+      "growth": "30% YoY",
+      "description": "Stock trading, mutual funds, crypto, fixed income",
+      "maturity": "Growth",
+      "examples": ["Zerodha", "Smallcase", "CoinSwitch", "Vested"],
+      "unit_economics": {
+        "cac": "₹300-800",
+        "ltv": "₹3000-10000"
+      },
+      "opportunities": ["Tier 2-3 investor penetration", "Retail investing democratization", "Alt assets"],
+      "challenges": ["Market volatility", "Regulatory uncertainty (crypto)", "Low financial literacy"]
+    }
+  ],
+  "regulatory_environment": {
+    "key_regulators": ["RBI", "SEBI", "IRDA"],
+    "important_regulations": [
+      "UPI guidelines",
+      "Credit Information Bureau",
+      "Money Laundering Prevention Act",
+      "Insurance Distribution",
+      "Reserve Bank's FinTech Sandbox"
+    ],
+    "recent_tailwinds": [
+      "RBI Sandbox for FinTech experimentation",
+      "Open Banking push",
+      "UPI 2.0 features",
+      "Central Bank Digital Currency (e-Rupee) launch"
+    ]
+  },
+  "key_insights": {
+    "consumer_behavior": [
+      "50% of Indians use digital payments (2023)",
+      "UPI is the preferred mode for retail transactions",
+      "Credit card penetration is low (~3% of population)",
+      "High demand for affordable credit among informal workers"
+    ],
+    "market_dynamics": [
+      "Intense competition among payment players",
+      "Margins are thin; focus must be on volume",
+      "Regulatory compliance is non-negotiable",
+      "API-first approach gaining adoption",
+      "B2B2C models are more sustainable than B2C"
+    ]
+  }
+}
