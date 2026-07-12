@@ -1,0 +1,149 @@
+{
+  "regulatory_framework": {
+    "key_regulators": {
+      "RBI": "Reserve Bank of India - Banking, payments, lending",
+      "SEBI": "Securities and Exchange Board of India - Investments, securities",
+      "MeitY": "Ministry of Electronics and Information Technology - Tech, startups",
+      "MCA": "Ministry of Corporate Affairs - Company registration, compliance",
+      "FSSAI": "Food Safety and Standards Authority of India - Food/beverage startups",
+      "ITA": "Income Tax Authority - Tax compliance",
+      "GST": "Goods and Services Tax - Tax registration"
+    },
+    "by_sector": {
+      "fintech": {
+        "regulations": [
+          "Payment Systems Act 2007",
+          "Reserve Bank of India Act 1934",
+          "Foreign Exchange Management Act (FEMA)",
+          "Prevention of Money Laundering Act (PMLA)",
+          "UPI guidelines by NPCI",
+          "Credit Information Bureau Act"
+        ],
+        "key_compliance": [
+          "KYC (Know Your Customer) verification",
+          "AML (Anti-Money Laundering) procedures",
+          "Regular RBI audits and inspections",
+          "Fintech sandbox (experimental framework)",
+          "Data protection under BharatData Act"
+        ],
+        "approval_timeline": "6-18 months for license",
+        "red_flags": [
+          "Handling customer money without proper licenses",
+          "Cross-border remittance without RBI approval",
+          "Lending without NBFC license (if needed)"
+        ]
+      },
+      "edtech": {
+        "regulations": [
+          "No specific EdTech license required",
+          "Online learning compliance (state-dependent)",
+          "Consumer Protection Act 2019",
+          "Privacy and Data Protection"
+        ],
+        "key_compliance": [
+          "Clear disclosure of educator credentials",
+          "Refund policy transparency",
+          "Data protection (student records)",
+          "Content moderation (harmful content removal)"
+        ],
+        "approval_timeline": "Minimal regulatory approval needed",
+        "red_flags": [
+          "False claims about educator qualifications",
+          "Misleading success rates/placements",
+          "Unclear refund policies"
+        ]
+      },
+      "ecommerce": {
+        "regulations": [
+          "Foreign Direct Investment (FDI) policy in e-Commerce",
+          "Consumer Protection Act 2019",
+          "Food Safety standards (if selling food)",
+          "GST compliance",
+          "Goods and Services Tax Act"
+        ],
+        "key_compliance": [
+          "Marketplace vs. Inventory model clarity (FDI rules)",
+          "Returns & Refunds policy (30 days minimum)",
+          "Consumer grievance redressal",
+          "GST registration and filing",
+          "Seller verification for marketplace"
+        ],
+        "approval_timeline": "Minimal approval; mainly self-compliance",
+        "red_flags": [
+          "Violating FDI caps (Inventory model restrictions)",
+          "No clear refund policy",
+          "Unverified sellers on marketplace"
+        ]
+      },
+      "healthtech": {
+        "regulations": [
+          "Medical Council of India (or State Medical Boards)",
+          "Telemedicine Practice Guidelines (2020)",
+          "Clinical Establishment Act",
+          "Pharmacy Act (if selling medicines)",
+          "Health Insurance Portability and Accountability Act (HIPAA-like - India doesn't have direct equivalent)",
+          "Drugs and Cosmetics Act"
+        ],
+        "key_compliance": [
+          "Consultation with licensed practitioners only",
+          "Patient data privacy and security",
+          "Prescription verification (for medicines)",
+          "Informed consent from patients",
+          "Record retention requirements"
+        ],
+        "approval_timeline": "Varies; consultations with medical councils",
+        "red_flags": [
+          "Unlicensed doctors providing consultations",
+          "Selling prescription medicines without verification",
+          "Making unverified medical claims"
+        ]
+      },
+      "agritech": {
+        "regulations": [
+          "Agricultural Produce Market Committee (APMC) Act (state-dependent)",
+          "Essential Commodities Act (varies by commodity)",
+          "Food Safety standards (if processing/selling food)",
+          "Environmental Protection Act (if using pesticides/chemicals)"
+        ],
+        "key_compliance": [
+          "Farmer data protection",
+          "Fair pricing compliance (no exploitative pricing)",
+          "License for buying/selling agricultural produce (varies by state)",
+          "Environment compliance (for chemical/fertilizer distribution)"
+        ],
+        "approval_timeline": "Varies by state and commodity",
+        "red_flags": [
+          "Buying/selling without proper APMC registration (where required)",
+          "Making unverified agricultural claims",
+          "Exploitative pricing of farmers"
+        ]
+      }
+    },
+    "government_support_schemes": [
+      {
+        "name": "Startup India Scheme",
+        "focus": "Early-stage startups",
+        "benefits": "Tax exemption, reduced compliance, funding access",
+        "eligibility": "Incorporated within 7 years, innovation focus"
+      },
+      {
+        "name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "focus": "Micro-finance for small businesses",
+        "benefits": "Loans up to ₹10L at reasonable rates",
+        "eligibility": "Non-agricultural business, new/existing"
+      },
+      {
+        "name": "Production Linked Incentive (PLI)",
+        "focus": "Manufacturing and tech services",
+        "benefits": "Cash incentives for production targets",
+        "eligibility": "Sector-specific (electronics, auto, pharma, etc.)"
+      },
+      {
+        "name": "Digital India Initiative",
+        "focus": "Digital infrastructure and services",
+        "benefits": "Grants, infrastructure support, market access",
+        "eligibility": "Digital product/service startups"
+      }
+    ]
+  }
+}
