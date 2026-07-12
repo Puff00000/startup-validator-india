@@ -1,0 +1,66 @@
+{
+  "sector": "SaaS",
+  "tam": {
+    "2024": "$30B",
+    "2030_projection": "$80B",
+    "cagr": "20-25%"
+  },
+  "subsectors": [
+    {
+      "name": "Vertical SaaS for SMBs",
+      "tam": "$12B",
+      "growth": "35% YoY",
+      "description": "Industry-specific software for small and medium businesses",
+      "maturity": "Growth",
+      "examples": ["Fyle (expense mgmt)", "Razorpay Settlement", "Karbon (accounting)"],
+      "unit_economics": {
+        "cac": "₹2000-5000",
+        "ltv": "₹50000-200000",
+        "payback_period": "6-12 months"
+      },
+      "opportunities": [
+        "Untapped SMB verticals (restaurants, salons, clinics)",
+        "Affordable alternatives to global SaaS",
+        "Industry-specific compliance solutions"
+      ],
+      "challenges": ["SMB willingness to pay", "Sales & support costs", "Churn rates"]
+    },
+    {
+      "name": "Enterprise SaaS",
+      "tam": "$10B",
+      "growth": "25% YoY",
+      "description": "Large-scale enterprise solutions",
+      "maturity": "Mature",
+      "examples": ["Freshworks", "Zoho", "HubSpot"],
+      "unit_economics": {
+        "cac": "₹10000-50000",
+        "ltv": "₹500000-2000000",
+        "payback_period": "12-24 months"
+      },
+      "challenges": ["Long sales cycles", "Competition from global players", "High CAC"]
+    },
+    {
+      "name": "HR & Payroll SaaS",
+      "tam": "$5B",
+      "growth": "30% YoY",
+      "description": "Payroll, benefits, talent management",
+      "maturity": "Growth",
+      "examples": ["Darwinbox", "Zeta HR", "Keka"],
+      "opportunities": ["Compliance automation", "Remote work management", "Analytics"]
+    }
+  ],
+  "market_dynamics": {
+    "india_advantage": [
+      "Large pool of engineering talent for product development",
+      "Cost-effective operations vs. US/EU",
+      "Deep understanding of Indian business workflows",
+      "Growing enterprise digitalization push"
+    ],
+    "growth_drivers": [
+      "Digital transformation across sectors",
+      "SMB adoption accelerating post-COVID",
+      "Government e-governance initiatives",
+      "Remote work normalization"
+    ]
+  }
+}
