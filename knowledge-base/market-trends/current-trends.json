@@ -1,0 +1,132 @@
+{
+  "market_trends": {
+    "trend_1": {
+      "name": "AI & Automation Adoption",
+      "year": "2023-2025",
+      "impact": "High",
+      "description": "Businesses adopting AI for customer service, operations, and analytics",
+      "opportunities": [
+        "AI-powered customer support",
+        "Enterprise automation",
+        "Data analytics and insights",
+        "Personalization engines"
+      ],
+      "affected_sectors": ["SaaS", "EdTech", "HealthTech", "eCommerce"],
+      "market_size": "$10B opportunity"
+    },
+    "trend_2": {
+      "name": "Quick Commerce (10-min delivery)",
+      "year": "2023-2025",
+      "impact": "High",
+      "description": "Blitzkrieg adoption of ultra-fast delivery for groceries and essentials",
+      "opportunities": [
+        "Last-mile logistics",
+        "Micro-fulfillment centers",
+        "Supply chain tech",
+        "Dark store management"
+      ],
+      "affected_sectors": ["eCommerce", "Logistics", "Grocery"],
+      "market_size": "$20B opportunity",
+      "note": "Blinkit, Zepto, Dunzo, Swiggy Instamart leading"
+    },
+    "trend_3": {
+      "name": "Vertical SaaS for SMBs",
+      "year": "2023-2025",
+      "impact": "Medium-High",
+      "description": "Affordable, easy-to-use software solutions built for specific Indian SMB verticals",
+      "opportunities": [
+        "Retail management systems",
+        "Restaurant management",
+        "Salon booking",
+        "Small clinic management"
+      ],
+      "affected_sectors": ["SaaS"],
+      "market_size": "$15B opportunity"
+    },
+    "trend_4": {
+      "name": "EV & Sustainable Mobility",
+      "year": "2023-2027",
+      "impact": "High (future)",
+      "description": "Government push for electric vehicles and sustainable last-mile solutions",
+      "opportunities": [
+        "EV charging infrastructure",
+        "Electric last-mile delivery",
+        "Battery swapping models",
+        "EV fleet management"
+      ],
+      "affected_sectors": ["Mobility", "Logistics"],
+      "government_support": "PLI scheme, subsidies, charging infrastructure push"
+    },
+    "trend_5": {
+      "name": "Climate & AgriTech",
+      "year": "2023-2025",
+      "impact": "Medium-High",
+      "description": "Sustainable agriculture, climate monitoring, and smart farming",
+      "opportunities": [
+        "Precision agriculture",
+        "Climate adaptation tools",
+        "Supply chain transparency",
+        "Carbon credit platforms"
+      ],
+      "affected_sectors": ["AgriTech", "eCommerce"],
+      "government_support": "PM Krishi Sinchayee Yojana, crop insurance schemes"
+    },
+    "trend_6": {
+      "name": "Remote Work & Distributed Teams",
+      "year": "2023-2025",
+      "impact": "Medium",
+      "description": "Permanent shift to remote work creating demand for collaboration tools",
+      "opportunities": [
+        "Team collaboration tools",
+        "HR management systems",
+        "Recruitment platforms for remote talent",
+        "Coworking tech"
+      ],
+      "affected_sectors": ["SaaS", "HR Tech"]
+    },
+    "trend_7": {
+      "name": "Creator Economy & D2C Brands",
+      "year": "2023-2025",
+      "impact": "Medium-High",
+      "description": "Individual creators and niche D2C brands growing fast",
+      "opportunities": [
+        "Creator monetization platforms",
+        "Social commerce tools",
+        "Dropshipping solutions",
+        "Influencer marketplaces"
+      ],
+      "affected_sectors": ["D2C", "eCommerce"],
+      "market_size": "$30B opportunity"
+    },
+    "trend_8": {
+      "name": "Mental Health & Wellness",
+      "year": "2023-2025",
+      "impact": "Medium-High",
+      "description": "Growing awareness and demand for mental health services and wellness solutions",
+      "opportunities": [
+        "Mental health telemedicine",
+        "Corporate wellness programs",
+        "Fitness apps",
+        "Meditation and mindfulness platforms"
+      ],
+      "affected_sectors": ["HealthTech", "SaaS"],
+      "note": "Low penetration; high growth potential"
+    }
+  ],
+  "government_tailwinds": [
+    "Digital India 2.0 initiative",
+    "Startup India program",
+    "PLI (Production Linked Incentive) scheme",
+    "National Logistics Policy",
+    "Unified Payments Interface (UPI) adoption push",
+    "e-Governance expansion",
+    "Make in India for tech"
+  ],
+  "infrastructure_improvements": [
+    "4G/5G penetration increasing (70% 4G coverage)",
+    "Fixed broadband expansion (fiber to homes)",
+    "Data center proliferation",
+    "Cloud adoption by enterprises",
+    "Payment infrastructure maturity"
+  ]
+}
