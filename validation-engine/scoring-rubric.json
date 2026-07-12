@@ -1,0 +1,229 @@
+{
+  "validation_dimensions": {
+    "market_fit": {
+      "weight": 0.25,
+      "description": "How well does the solution address a real market need in India?",
+      "scoring_criteria": [
+        {
+          "metric": "Problem Clarity",
+          "excellent": "Specific problem affecting identified segment",
+          "good": "Problem is clear but broad",
+          "poor": "Vague or generic problem statement"
+        },
+        {
+          "metric": "Market Size",
+          "excellent": "TAM > ₹1000 Cr with clear calculation",
+          "good": "TAM ₹100-1000 Cr with reasonable justification",
+          "poor": "TAM < ₹100 Cr or no justification"
+        },
+        {
+          "metric": "Customer Segment Definition",
+          "excellent": "Specific tier, demographics, income bracket identified",
+          "good": "Segment identified but could be more specific",
+          "poor": "No clear segment (targets everyone)"
+        },
+        {
+          "metric": "Solution Differentiation",
+          "excellent": "Clear, unfair advantage vs. competitors",
+          "good": "Different approach but competition exists",
+          "poor": "Me-too product, no clear differentiation"
+        }
+      ],
+      "red_flags": [
+        "Target segment is too broad ('everyone')",
+        "TAM claimed without data/justification",
+        "No clear problem identified",
+        "Ignoring regulatory blockers",
+        "Me-too solution in saturated market"
+      ],
+      "green_signals": [
+        "Underserved segment identified",
+        "TAM calculated bottom-up with evidence",
+        "Strong customer interviews/validation",
+        "Regulatory tailwinds identified"
+      ]
+    },
+    "economic_viability": {
+      "weight": 0.25,
+      "description": "Can this business sustain itself financially?",
+      "scoring_criteria": [
+        {
+          "metric": "LTV:CAC Ratio",
+          "excellent": "3:1 or higher",
+          "good": "2:1 to 3:1",
+          "poor": "Less than 2:1"
+        },
+        {
+          "metric": "CAC Payback Period",
+          "excellent": "< 6 months",
+          "good": "6-12 months",
+          "poor": "> 12 months"
+        },
+        {
+          "metric": "Unit Margins",
+          "excellent": "> 60% gross margin",
+          "good": "40-60% gross margin",
+          "poor": "< 40% gross margin"
+        },
+        {
+          "metric": "Revenue Growth Assumptions",
+          "excellent": "50-150% YoY (realistic for early stage)",
+          "good": "30-50% YoY",
+          "poor": "> 500% YoY (unrealistic)"
+        }
+      ],
+      "red_flags": [
+        "LTV:CAC < 2:1",
+        "No clear unit economics",
+        "Revenue projections > 500% YoY",
+        "Assuming unrealistic pricing",
+        "No path to profitability shown"
+      ],
+      "green_signals": [
+        "Unit economics detailed and justified",
+        "Conservative revenue projections",
+        "Clear unit economics at scale",
+        "Diverse revenue streams"
+      ]
+    },
+    "team_execution": {
+      "weight": 0.20,
+      "description": "Can the team execute this vision?",
+      "scoring_criteria": [
+        {
+          "metric": "Domain Experience",
+          "excellent": "5+ years in problem space",
+          "good": "2-5 years relevant experience",
+          "poor": "No relevant experience"
+        },
+        {
+          "metric": "Founder Background",
+          "excellent": "IIT/top B-school with track record",
+          "good": "Engineering or business background",
+          "poor": "No relevant background"
+        },
+        {
+          "metric": "Team Composition",
+          "excellent": "Technical + Business + Domain expertise",
+          "good": "At least 2 complementary skills",
+          "poor": "Solo founder or homogeneous team"
+        },
+        {
+          "metric": "Execution Capability",
+          "excellent": "Previous successful startup exit",
+          "good": "Relevant work experience at established companies",
+          "poor": "No proven track record"
+        }
+      ],
+      "red_flags": [
+        "Solo non-technical founder in technical space",
+        "No domain experience",
+        "Previous startup failures without learning",
+        "Weak co-founder balance",
+        "Overconfidence without evidence"
+      ],
+      "green_signals": [
+        "Previous startup success",
+        "Deep domain experience",
+        "Complementary co-founder skills",
+        "Clear recognition of knowledge gaps",
+        "Ability to attract talent"
+      ]
+    },
+    "timing_trends": {
+      "weight": 0.15,
+      "description": "Is this aligned with current and future Indian trends?",
+      "scoring_criteria": [
+        {
+          "metric": "Market Readiness",
+          "excellent": "Timing is right (infrastructure/adoption ready)",
+          "good": "Emerging trend, 6-12 months away",
+          "poor": "Too early or too late"
+        },
+        {
+          "metric": "Regulatory Tailwinds",
+          "excellent": "Government or RBI actively supporting",
+          "good": "Regulatory clarity exists",
+          "poor": "Regulatory uncertainty or blockers"
+        },
+        {
+          "metric": "Trend Alignment",
+          "excellent": "Riding major Indian tech/consumer trend",
+          "good": "Follows existing trend",
+          "poor": "Against current trends"
+        },
+        {
+          "metric": "Infrastructure Availability",
+          "excellent": "Required infrastructure (4G, payments, etc.) available",
+          "good": "Infrastructure emerging",
+          "poor": "Infrastructure not available"
+        }
+      ],
+      "red_flags": [
+        "Going against major regulatory push",
+        "Timing is 2-3 years too early",
+        "Infrastructure not yet mature",
+        "Ignoring competitive timing"
+      ],
+      "green_signals": [
+        "Government policy alignment",
+        "Infrastructure (4G, UPI, etc.) available",
+        "Consumer behavior shift happening",
+        "Regulatory sandbox programs available"
+      ]
+    },
+    "social_impact": {
+      "weight": 0.15,
+      "description": "Does this create value for Indian society?",
+      "scoring_criteria": [
+        {
+          "metric": "Problem Impact",
+          "excellent": "Addresses major pain point for underserved population",
+          "good": "Improves quality of life",
+          "poor": "Limited social impact"
+        },
+        {
+          "metric": "Scalability to Tier 2-3",
+          "excellent": "Can reach tier 2-3 cities/rural areas",
+          "good": "Tier 1 focus but potential to scale",
+          "poor": "Only works in metros"
+        },
+        {
+          "metric": "Accessibility",
+          "excellent": "Affordable for mass market",
+          "good": "Accessible to middle class",
+          "poor": "Luxury/premium only"
+        },
+        {
+          "metric": "Local Language Support",
+          "excellent": "Regional languages built-in",
+          "good": "Hindi + English available",
+          "poor": "English-only"
+        }
+      ],
+      "red_flags": [
+        "Only benefits elite/urban population",
+        "Extractive business model",
+        "Ignores local context",
+        "No path to scale beyond metros"
+      ],
+      "green_signals": [
+        "Addresses underserved population",
+        "Affordable/accessible pricing",
+        "Local language support",
+        "Scalable to tier 2-3 cities"
+      ]
+    }
+  },
+  "overall_validation_score": {
+    "calculation": "Sum of (dimension_score × weight)",
+    "example": "(0.85 × 0.25) + (0.75 × 0.25) + (0.80 × 0.20) + (0.70 × 0.15) + (0.80 × 0.15) = 0.7975 → 80/100",
+    "interpretation": {
+      "85-100": "Excellent - Strong validation signals",
+      "70-84": "Good - Proceed with caution, address concerns",
+      "55-69": "Fair - Significant concerns to address",
+      "40-54": "Weak - Major red flags",
+      "0-39": "Not recommended - Critical issues"
+    }
+  }
+}
