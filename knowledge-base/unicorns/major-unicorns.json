@@ -1,0 +1,159 @@
+{
+  "unicorns": [
+    {
+      "id": "flipkart",
+      "name": "Flipkart",
+      "founded_year": 2007,
+      "founders": ["Sachin Bansal", "Binny Bansal"],
+      "sector": "eCommerce",
+      "headquarters": "Bangalore",
+      "current_status": "Acquired by Walmart (2018, $16B)",
+      "problem_statement": "Online shopping infrastructure didn't exist in India; limited catalog, trust issues",
+      "solution": "Full-stack marketplace with cash-on-delivery, logistics, payments",
+      "initial_target": "Tier 1-2 urban, age 18-45, income ₹3-15 LPA",
+      "key_success_factors": [
+        "Solved trust barrier with COD",
+        "Proprietary logistics network",
+        "Aggressive customer acquisition",
+        "Strong execution team (IIT backgrounds)"
+      ],
+      "time_to_unicorn": "6 years (2013)"
+    },
+    {
+      "id": "paytm",
+      "name": "Paytm",
+      "founded_year": 2010,
+      "founders": ["Vijay Shekhar Sharma"],
+      "sector": "FinTech",
+      "headquarters": "Noida",
+      "current_status": "IPO 2021, Valuation: $16B",
+      "problem_statement": "Digital payments didn't exist in India; mobile payment adoption was zero",
+      "solution": "Mobile wallet and payment gateway for merchants and consumers",
+      "initial_target": "Early adopters in Tier 1 cities",
+      "key_success_factors": [
+        "First-mover advantage in mobile payments",
+        "Demonetization tailwind (Nov 2016)",
+        "Government backing and RBI support",
+        "Expansion to multiple use cases (travel, utilities, etc.)"
+      ],
+      "time_to_unicorn": "3 years (2013)",
+      "regulatory_tailwinds": ["Demonetization 2016", "Digital India push", "UPI adoption"]
+    },
+    {
+      "id": "oyo",
+      "name": "OYO Rooms",
+      "founded_year": 2012,
+      "founders": ["Ritesh Agarwal"],
+      "sector": "Hospitality",
+      "headquarters": "Bangalore",
+      "current_status": "Valuation: $10B (2021), IPO pending",
+      "problem_statement": "Budget hotel chains didn't exist; fragmented unorganized hotel sector",
+      "solution": "Standardized budget hotel chain through partnership model",
+      "initial_target": "Budget travelers, tier 2-3 cities, business travelers",
+      "key_success_factors": [
+        "Asset-light model (partnerships vs. ownership)",
+        "Standardization of unorganized sector",
+        "Rapid expansion through franchise model",
+        "Young founder (started at 19)"
+      ],
+      "time_to_unicorn": "4 years (2016)",
+      "challenges": ["International expansion struggles", "Path to profitability delays"]
+    },
+    {
+      "id": "byju",
+      "name": "BYJU'S",
+      "founded_year": 2011,
+      "founders": ["Byju Raveendran"],
+      "sector": "EdTech",
+      "headquarters": "Bangalore",
+      "current_status": "Valuation: $22B (2021, highest in EdTech)",
+      "problem_statement": "Rote learning in Indian education system; limited access to quality tutoring",
+      "solution": "AI-powered adaptive learning platform for K-12 students",
+      "initial_target": "Urban K-12 students, initially through after-school tuitions",
+      "key_success_factors": [
+        "Personalized learning through AI",
+        "Strong branding and marketing",
+        "Aggressive user acquisition (CAC: ₹2000-3000)",
+        "Multiple acquisition strategy (expanded through acquisitions)"
+      ],
+      "time_to_unicorn": "5 years (2016)",
+      "challenges": ["Profitability concerns", "High CAC ratios", "Churn rates"]
+    },
+    {
+      "id": "unacademy",
+      "name": "Unacademy",
+      "founded_year": 2015,
+      "founders": ["Roman Saini", "Hemesh Singh", "Sachin Gupta"],
+      "sector": "EdTech",
+      "headquarters": "Bangalore",
+      "current_status": "Valuation: $3.4B (2021)",
+      "problem_statement": "Quality competitive exam coaching (IIT-JEE, UPSC) was expensive and limited to metros",
+      "solution": "Live and recorded classes from top educators on YouTube/app",
+      "initial_target": "Engineering and civil service aspirants, tier 2-3 cities",
+      "key_success_factors": [
+        "Focus on high-value use cases (IIT-JEE, UPSC)",
+        "Community-first approach",
+        "Creator economy model (educator-centric)"
+      ],
+      "time_to_unicorn": "4 years (2019)"
+    },
+    {
+      "id": "cred",
+      "name": "CRED",
+      "founded_year": 2018,
+      "founders": ["Kunal Shah"],
+      "sector": "FinTech",
+      "headquarters": "Bangalore",
+      "current_status": "Valuation: $2.2B (2021)",
+      "problem_statement": "Credit card bill payment had high friction; rewards weren't accessible",
+      "solution": "Gamified credit card bill payment app with instant rewards",
+      "initial_target": "High-income credit card users, metro cities",
+      "key_success_factors": [
+        "Solved real friction point for affluent users",
+        "Gamification increased engagement",
+        "Premium positioning and brand",
+        "Super-fast founder (previously built Directi)"
+      ],
+      "time_to_unicorn": "2 years (2020)",
+      "notable": "Fastest to unicorn among recent Indian startups"
+    },
+    {
+      "id": "nykaa",
+      "name": "Nykaa",
+      "founded_year": 2012,
+      "founders": ["Falguni Nayar"],
+      "sector": "eCommerce (Beauty)",
+      "headquarters": "Mumbai",
+      "current_status": "IPO 2021, Market cap: ₹1.2L Cr",
+      "problem_statement": "Beauty products in India were fragmented; no trusted online marketplace",
+      "solution": "Centralized online marketplace for cosmetics and skincare",
+      "initial_target": "Urban females, 18-35, middle to upper-middle class",
+      "key_success_factors": [
+        "Expert curation and recommendation",
+        "Trusted brand in beauty space",
+        "Omnichannel strategy (online + physical stores)",
+        "First woman founder to lead IPO in India"
+      ],
+      "time_to_unicorn": "7 years (2019)"
+    },
+    {
+      "id": "razorpay",
+      "name": "Razorpay",
+      "founded_year": 2014,
+      "founders": ["Harshil Mathur", "Shashank Kumar"],
+      "sector": "FinTech",
+      "headquarters": "Bangalore",
+      "current_status": "Valuation: $7.5B (2022)",
+      "problem_statement": "Payment gateways for Indian businesses were expensive, complex, and limited",
+      "solution": "Easy-to-integrate payments platform for online and offline transactions",
+      "initial_target": "SMBs and startups, metro cities",
+      "key_success_factors": [
+        "Solved real problem for businesses",
+        "Simple API integration",
+        "Competitive pricing vs. international players",
+        "Expanded to multiple products (lending, payroll, etc.)"
+      ],
+      "time_to_unicorn": "6 years (2020)"
+    }
+  ]
+}
