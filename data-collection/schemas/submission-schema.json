@@ -1,0 +1,237 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Startup Validation Submission Schema",
+  "type": "object",
+  "required": [
+    "founder_profile",
+    "business_idea",
+    "market_analysis",
+    "go_to_market",
+    "financial_projections"
+  ],
+  "properties": {
+    "submission_metadata": {
+      "type": "object",
+      "properties": {
+        "submission_date": { "type": "string", "format": "date-time" },
+        "submission_id": { "type": "string" },
+        "user_id": { "type": "string" }
+      }
+    },
+    "founder_profile": {
+      "type": "object",
+      "required": ["name", "email", "background", "experience_years"],
+      "properties": {
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "background": {
+          "type": "string",
+          "enum": ["IIT/NIT", "Top tier B-school", "Engineering", "Non-technical", "Business", "Other"]
+        },
+        "experience_years": { "type": "integer", "minimum": 0 },
+        "previous_ventures": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "company_name": { "type": "string" },
+              "role": { "type": "string" },
+              "duration_years": { "type": "number" },
+              "outcome": { "type": "string", "enum": ["Success", "Failed", "Ongoing"] }
+            }
+          }
+        },
+        "co_founders": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "background": { "type": "string" },
+              "expertise": { "type": "string" }
+            }
+          }
+        },
+        "relevant_domain_experience": { "type": "string", "description": "Years in the problem space" }
+      }
+    },
+    "business_idea": {
+      "type": "object",
+      "required": ["problem_statement", "solution", "why_now"],
+      "properties": {
+        "company_name": { "type": "string" },
+        "tagline": { "type": "string" },
+        "problem_statement": {
+          "type": "string",
+          "description": "What problem are you solving? Who has this problem?"
+        },
+        "solution": {
+          "type": "string",
+          "description": "Your proposed solution. Why is it better than alternatives?"
+        },
+        "why_now": {
+          "type": "string",
+          "description": "Why is this the right time? What changed?"
+        },
+        "unique_value_proposition": {
+          "type": "string",
+          "description": "What makes your solution unique?"
+        },
+        "sector": {
+          "type": "string",
+          "enum": ["FinTech", "EdTech", "eCommerce", "SaaS", "Mobility", "HealthTech", "AgriTech", "D2C", "Other"]
+        },
+        "sub_sector": { "type": "string" }
+      }
+    },
+    "market_analysis": {
+      "type": "object",
+      "required": ["target_segment", "tam", "initial_market"],
+      "properties": {
+        "target_segment": {
+          "type": "object",
+          "properties": {
+            "demographics": {
+              "type": "string",
+              "description": "Age, income, location, profession"
+            },
+            "tier_focus": {
+              "type": "array",
+              "items": { "type": "string", "enum": ["Tier 1", "Tier 2", "Tier 3", "Rural"] }
+            },
+            "problem_acuteness": {
+              "type": "string",
+              "enum": ["Extreme", "High", "Medium", "Low"],
+              "description": "How acute is the problem for this segment?"
+            }
+          }
+        },
+        "tam": {
+          "type": "object",
+          "properties": {
+            "total_addressable_market": {
+              "type": "string",
+              "description": "Estimated TAM in INR or number of potential customers"
+            },
+            "calculation_method": {
+              "type": "string",
+              "description": "How did you calculate TAM? (top-down, bottom-up, etc.)"
+            },
+            "data_source": { "type": "string" }
+          }
+        },
+        "initial_market": {
+          "type": "object",
+          "properties": {
+            "sam": {
+              "type": "string",
+              "description": "Serviceable Addressable Market - market you can realistically target"
+            },
+            "som": {
+              "type": "string",
+              "description": "Serviceable Obtainable Market - realistic 3-5 year target"
+            }
+          }
+        },
+        "competition": {
+          "type": "object",
+          "properties": {
+            "direct_competitors": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": { "type": "string" },
+                  "strength": { "type": "string" },
+                  "weakness": { "type": "string" }
+                }
+              }
+            },
+            "indirect_competitors": { "type": "array", "items": { "type": "string" } },
+            "competitive_advantage": { "type": "string" },
+            "barriers_to_entry": { "type": "array", "items": { "type": "string" } }
+          }
+        }
+      }
+    },
+    "go_to_market": {
+      "type": "object",
+      "required": ["primary_channel", "customer_acquisition_cost"],
+      "properties": {
+        "primary_channel": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["Direct sales", "Online marketing", "Partnerships", "Marketplace", "Community", "Other"]
+          }
+        },
+        "customer_acquisition_strategy": { "type": "string" },
+        "customer_acquisition_cost": {
+          "type": "string",
+          "description": "Estimated CAC in INR"
+        },
+        "pricing_strategy": {
+          "type": "object",
+          "properties": {
+            "model": {
+              "type": "string",
+              "enum": ["Freemium", "Subscription", "One-time", "Commission-based", "Marketplace", "B2B2C"]
+            },
+            "price_point": { "type": "string" },
+            "justification": { "type": "string" }
+          }
+        },
+        "launch_geography": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "financial_projections": {
+      "type": "object",
+      "properties": {
+        "revenue_year_1": { "type": "string", "description": "Projected revenue Year 1 (INR)" },
+        "revenue_year_3": { "type": "string", "description": "Projected revenue Year 3 (INR)" },
+        "runway_months": { "type": "integer", "description": "How many months of runway do you have?" },
+        "funding_required": { "type": "string", "description": "Total funding needed" },
+        "unit_economics": {
+          "type": "object",
+          "properties": {
+            "ltv": { "type": "string" },
+            "payback_period_months": { "type": "integer" }
+          }
+        }
+      }
+    },
+    "risk_assessment": {
+      "type": "object",
+      "properties": {
+        "key_risks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "risk": { "type": "string" },
+              "likelihood": { "type": "string", "enum": ["High", "Medium", "Low"] },
+              "mitigation": { "type": "string" }
+            }
+          }
+        },
+        "regulatory_challenges": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "traction": {
+      "type": "object",
+      "properties": {
+        "stage": {
+          "type": "string",
+          "enum": ["Ideation", "MVP", "Pilot", "Early customers", "Revenue-generating"]
+        },
+        "users_customers": { "type": "integer" },
+        "monthly_recurring_revenue": { "type": "string" },
+        "key_metrics": { "type": "object" }
+      }
+    }
+  }
+}
